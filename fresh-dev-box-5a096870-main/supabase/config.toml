@@ -1,0 +1,7 @@
+project_id = "krakvkkbtihadvtkfqso"
+
+[functions.twilio-voice]
+verify_jwt = false
+
+[functions.simulate]
+verify_jwt = true

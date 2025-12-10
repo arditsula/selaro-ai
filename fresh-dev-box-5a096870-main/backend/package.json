@@ -1,0 +1,20 @@
+{
+  "name": "selaro-backend",
+  "version": "1.0.0",
+  "description": "Selaro AI Receptionist Express Backend",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2",
+    "@supabase/supabase-js": "^2.84.0",
+    "openai": "^4.20.0",
+    "dotenv": "^16.3.1",
+    "twilio": "^4.19.0"
+  }
+}
